@@ -10,8 +10,6 @@ namespace ParralelFor
             Parallel.For(1, 5, TplTest1);
 
             Console.ReadKey();
-
-
         }
 
         static void TplTest1(int i)

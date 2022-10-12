@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TroelsenTimer", "TroelsenTi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParralelFor", "ParralelFor\ParralelFor.csproj", "{B2260450-46A8-45DC-8A05-C34845196ED8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_AsyncMethodMain", "002_AsyncMethodMain\002_AsyncMethodMain.csproj", "{222A0BE3-5E3D-4B9F-A7F0-CE51850D9690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_AwaitReturnValue", "AwaitReturnValue\003_AwaitReturnValue.csproj", "{BC27ECA5-4005-4591-8634-9D628C66746D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{B2260450-46A8-45DC-8A05-C34845196ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2260450-46A8-45DC-8A05-C34845196ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2260450-46A8-45DC-8A05-C34845196ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222A0BE3-5E3D-4B9F-A7F0-CE51850D9690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222A0BE3-5E3D-4B9F-A7F0-CE51850D9690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222A0BE3-5E3D-4B9F-A7F0-CE51850D9690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222A0BE3-5E3D-4B9F-A7F0-CE51850D9690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC27ECA5-4005-4591-8634-9D628C66746D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC27ECA5-4005-4591-8634-9D628C66746D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC27ECA5-4005-4591-8634-9D628C66746D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC27ECA5-4005-4591-8634-9D628C66746D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
