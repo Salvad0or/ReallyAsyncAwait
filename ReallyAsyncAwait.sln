@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001", "ReallyAsyncAwait\001
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Troelsen", "Troelsen", "{6768DFAF-92CA-4B33-821A-2EF80FACB28D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TroelsenTimer", "TroelsenTimer\TroelsenTimer.csproj", "{D84BD90E-5E12-42C0-B8D3-75A893E27BDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TroelsenTimer", "TroelsenTimer\TroelsenTimer.csproj", "{D84BD90E-5E12-42C0-B8D3-75A893E27BDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParralelFor", "ParralelFor\ParralelFor.csproj", "{B2260450-46A8-45DC-8A05-C34845196ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParralelFor", "ParralelFor\ParralelFor.csproj", "{B2260450-46A8-45DC-8A05-C34845196ED8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_AsyncMethodMain", "002_AsyncMethodMain\002_AsyncMethodMain.csproj", "{222A0BE3-5E3D-4B9F-A7F0-CE51850D9690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_AsyncMethodMain", "002_AsyncMethodMain\002_AsyncMethodMain.csproj", "{222A0BE3-5E3D-4B9F-A7F0-CE51850D9690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_AwaitReturnValue", "AwaitReturnValue\003_AwaitReturnValue.csproj", "{BC27ECA5-4005-4591-8634-9D628C66746D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_AwaitReturnValue", "AwaitReturnValue\003_AwaitReturnValue.csproj", "{BC27ECA5-4005-4591-8634-9D628C66746D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQ_001", "PLINQ_001\PLINQ_001.csproj", "{D9CD657B-2A9E-477C-B6BD-3C4EC5FB4749}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{BC27ECA5-4005-4591-8634-9D628C66746D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC27ECA5-4005-4591-8634-9D628C66746D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC27ECA5-4005-4591-8634-9D628C66746D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CD657B-2A9E-477C-B6BD-3C4EC5FB4749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CD657B-2A9E-477C-B6BD-3C4EC5FB4749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CD657B-2A9E-477C-B6BD-3C4EC5FB4749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CD657B-2A9E-477C-B6BD-3C4EC5FB4749}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D84BD90E-5E12-42C0-B8D3-75A893E27BDF} = {6768DFAF-92CA-4B33-821A-2EF80FACB28D}
 		{B2260450-46A8-45DC-8A05-C34845196ED8} = {6768DFAF-92CA-4B33-821A-2EF80FACB28D}
+		{D9CD657B-2A9E-477C-B6BD-3C4EC5FB4749} = {6768DFAF-92CA-4B33-821A-2EF80FACB28D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC0BF8F7-4E44-4C52-BAFD-029D1F57BB96}
